@@ -13,6 +13,7 @@
 }
 
 .img-container {
+  height: 100%;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -35,6 +36,14 @@
   object-fit: contain;
 }
 
+.credits {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: white;
+  padding-top: 525px;
+}
+
 .form-container {
   flex: 2;
   background-color: #f6f2f2;
@@ -51,7 +60,7 @@ form {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  padding: 40px;
+  padding: 60px;
 }
 
 .input label {
